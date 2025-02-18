@@ -60,6 +60,8 @@ These insights support strategic decision-making by providing key business intel
 ## 🏗️ Data Architecture
 This project follows the **Medallion Architecture**:
 
+![Data Architecture](docs/data_architecture.png)
+
 ### **🔹 Bronze Layer:**
 - Stores **raw** ERP and CRM data **as-is**.
 - Data is ingested from CSV files into **SQL Server tables**.
@@ -82,7 +84,7 @@ data-warehouse-project/
 │
 ├── docs/                               # Project documentation and architecture details
 │   ├── etl.drawio                      # ETL pipeline workflow
-│   ├── data_architecture.drawio        # Data warehouse architecture diagram
+│   ├── data_architecture.png           # Data warehouse architecture diagram
 │   ├── data_catalog.md                 # Dataset field descriptions & metadata
 │   ├── data_flow.drawio                # Data flow diagram
 │   ├── data_models.drawio              # Star schema modeling
@@ -112,3 +114,5 @@ This project is licensed under the **MIT License**. You are free to use, modify,
 Feel free to contribute or provide feedback! Create a **pull request** or open an **issue** if you have suggestions or improvements.
 
 ---
+
+🚀 **Happy Coding!** 🚀
