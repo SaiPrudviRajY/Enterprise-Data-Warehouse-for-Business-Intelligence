@@ -114,5 +114,3 @@ This project is licensed under the **MIT License**. You are free to use, modify,
 Feel free to contribute or provide feedback! Create a **pull request** or open an **issue** if you have suggestions or improvements.
 
 ---
-
-🚀 **Happy Coding!** 🚀
